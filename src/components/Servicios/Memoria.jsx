@@ -72,10 +72,10 @@ const Memoria = ({children})=>{
         // const response = await fetch("./datos.json");
         // const datosObtenidos = await response.json();
         const datosObtenidos = datosJSON;
-        // setDatos(datosObtenidos);
+        setDatos(datosObtenidos);
       } catch (error) {
         console.log("El error es:" + error);
-        console.log(datos);
+        // console.log(datos);
       }
     };
   
